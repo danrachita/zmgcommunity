@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zmg
+Comment=Zmg P2P Cryptocurrency
+Comment[fr]=Zmg, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Zmg, eşten eşe kriptografik sanal para birimi
+Exec=zmg-qt %u
+Terminal=false
+Type=Application
+Icon=zmg128
+MimeType=x-scheme-handler/zmg;
+Categories=Office;Finance;

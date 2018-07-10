@@ -1,0 +1,26 @@
+# /etc/conf.d/zmgd: config file for /etc/init.d/zmgd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/zmg/zmg.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/zmgd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zmgd.pid"
+
+# Where to write zmgd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zmgd"
+
+# User and group to own zmgd process
+#BITCOIND_USER="zmg"
+#BITCOIND_GROUP="zmg"
+
+# Path to zmgd executable
+#BITCOIND_BIN="/usr/bin/zmgd"
+
+# Nice value to run zmgd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
